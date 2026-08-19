@@ -1,13 +1,110 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="fr">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Art of Noticing</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Georgia, serif;
+            background-color: #F3EBDD;
+            color: #333333;
+            text-align: center;
+            margin: 0;
+            padding: 60px 20px;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: 400;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        .intro {
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto 50px;
+            line-height: 1.6;
+        }
+
+        nav a {
+            color: #333333;
+            text-decoration: none;
+            margin: 0 12px;
+            font-size: 16px;
+        }
+
+        .hero-image {
+            width: 500px;
+            height: auto;
+            margin: 40px auto;
+            display: block;
+        }
+
+        .languages {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            display: flex;
+            gap: 10px;
+            font-size: 22px;
+        }
+
+        .languages a {
+            text-decoration: none;
+        }
+    </style>
+
 </head>
+
 <body>
 
-<h1>La version française arrive bientôt</h1>
+    <div class="languages">
+        <a href="index.html">🇵🇱</a>
+        <a href="index-en.html">🇬🇧</a>
+        <a href="index-fr.html">🇫🇷</a>
+    </div>
 
-<a href="index.html">← Retour à la version polonaise</a>
+    <h1>The Art of Noticing</h1>
+
+    <p class="intro">
+        Un projet photographique personnel sur l'art de regarder le monde avec attention.
+    </p>
+
+    <img src="jafotka.JPG"
+         alt="Klaudia prenant une photo"
+         class="hero-image">
+
+    <nav>
+        <a href="zauwazone.html">✨ Remarqué</a>
+        <a href="zwierzeta.html">🐾 Animaux</a>
+        <a href="makro.html">🔍 Macro</a>
+        <a href="streetart.html">🎨 Street Art</a>
+        <a href="miejsca.html">Lieux</a>
+        <a href="Omnie-fr.html">À propos de moi</a>
+    </nav>
+
+    <section id="zauwazone">
+
+        <nav>
+            <!-- les photographies individuelles seront ajoutées ici -->
+        </nav>
+
+    </section>
+
+    <footer>
+        <p style="margin-top: 30px;">par Klaudia</p>
+    </footer>
 
 </body>
+
 </html>
+```
